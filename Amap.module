@@ -1,6 +1,7 @@
 #!name=Ads-Amap
 #!category=ADBlock
 
+
 [URL Rewrite]
 # 通用广告请求
 ^https?:\/\/m5\.amap\.com\/ws\/asa\/ads_attribution - reject
