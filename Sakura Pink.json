@@ -1,0 +1,66 @@
+{
+  "colors" : {
+    "accent" : {
+      "dark" : "#FF9EBC",
+      "light" : "#C7527A"
+    },
+    "background" : {
+      "dark" : "#181516",
+      "light" : "#FDF0F4"
+    },
+    "blue" : {
+      "dark" : "#5D99C6",
+      "light" : "#74B4E0"
+    },
+    "cyan" : {
+      "dark" : "#58B6C4",
+      "light" : "#6ED4E3"
+    },
+    "green" : {
+      "dark" : "#66A884",
+      "light" : "#81C7A1"
+    },
+    "groupedBackground" : {
+      "dark" : "#181516",
+      "light" : "#FDF0F4"
+    },
+    "indigo" : {
+      "dark" : "#8778B8",
+      "light" : "#A091D4"
+    },
+    "orange" : {
+      "dark" : "#C98667",
+      "light" : "#F0A786"
+    },
+    "purple" : {
+      "dark" : "#A378B5",
+      "light" : "#C295D6"
+    },
+    "red" : {
+      "dark" : "#C96D6D",
+      "light" : "#F08B8B"
+    },
+    "secondaryGroupedBackground" : {
+      "dark" : "#242022",
+      "light" : "#FFF7F9"
+    },
+    "tabBarBackground" : {
+      "dark" : "#181516",
+      "light" : "#FDF0F4"
+    },
+    "teal" : {
+      "dark" : "#5BA394",
+      "light" : "#70C9B8"
+    },
+    "tertiaryGroupedBackground" : {
+      "dark" : "#302A2C",
+      "light" : "#F7E8EC"
+    },
+    "yellow" : {
+      "dark" : "#C4AC6A",
+      "light" : "#EBD18A"
+    }
+  },
+  "name" : "Sakura Pink V2"
+}
+ 
