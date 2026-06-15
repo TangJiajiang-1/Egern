@@ -1,0 +1,80 @@
+# ==========================================
+# 📌 配置文件: Tang 专用配置
+# ⏱️ 更新时间: 2026.06.12 10:25
+# ==========================================
+
+# 基本配置
+ipv6: false
+http_port: 3080
+socks_port: 3090
+allow_external_connections: false
+vif_only: true
+hide_vpn_icon: false
+
+# 排除与真实 IP 配置
+vif_excluded_routes:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+
+real_ip_domains:
+  - "*.lan"
+  - "*.push.apple.com"
+  - "router.asus.com"
+
+# DNS 劫持
+hijack_dns:
+  - '*'
+
+# 规则数据库
+geoip_db_url: https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb
+asn_db_url: https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb
+
+# 全局测速 URL
+proxy_latency_test_url: http://www.gstatic.com/generate_204
+direct_latency_test_url: http://www.apple.com/library/test/success.html
+
+# DNS 配置
+dns:
+  public_ip_lookup_url: https://ifconfig.me/ip
+  bootstrap:
+    - system
+    - 223.5.5.5
+    - 119.29.29.29
+  upstreams:
+    AliDNS:
+      - h3://dns.alidns.com/dns-query
+    DNSPod:
+      - https://doh.pub/dns-query
+    Default:
+      - h3://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+      - tcp://8.8.8.8:53
+  forward:
+    - domain_suffix: { match: alibaba.com, value: AliDNS }
+    - domain_suffix: { match: alipay.com, value: AliDNS }
+    - domain_suffix: { match: alipayobjects.com, value: AliDNS }
+    - domain_suffix: { match: aliapp.org, value: AliDNS }
+    - domain_suffix: { match: alicdn.com, value: AliDNS }
+    - domain_suffix: { match: aliyun.com, value: AliDNS }
+    - domain_suffix: { match: taobao.com, value: AliDNS }
+    - domain_suffix: { match: tmall.com, value: AliDNS }
+    - domain_suffix: { match: amap.com, value: AliDNS }
+    - domain_suffix: { match: ele.me, value: AliDNS }
+    - domain_suffix: { match: qq.com, value: DNSPod }
+    - domain_suffix: { match: wechat.com, value: DNSPod }
+    - domain_suffix: { match: weixin.com, value: DNSPod }
+    - domain_suffix: { match: tencent.com, value: DNSPod }
+    - domain_suffix: { match: local, value: system }
+    - domain_suffix: { match: lan, value: system }
+    - wildcard: { match: '*', value: Default }
+
+# host 配置
+  hostnames:
+    excludes:
+      - "*.wechat.com"
+      - "*.weixin.com"
+      - "*.alipay.com"
+      - "*.microsoft.com"
+      - "*.live.com"
+      - "*.office.com"
