@@ -1,0 +1,65 @@
+{
+ "colors" : {
+   "accent" : {
+     "dark" : "#3A506B",
+     "light" : "#B2EBF2"
+   },
+   "background" : {
+     "dark" : "#0A0A0A",
+     "light" : "#FFFFFF"
+   },
+   "blue" : {
+     "dark" : "#1A56B2",
+     "light" : "#0047AB"
+   },
+   "cyan" : {
+     "dark" : "#4DD9FF",
+     "light" : "#4DD9FF"
+   },
+   "green" : {
+     "dark" : "#2E8B57",
+     "light" : "#006400"
+   },
+   "groupedBackground" : {
+     "dark" : "#161616",
+     "light" : "#E0F7FA"
+   },
+   "indigo" : {
+     "dark" : "#4DD9FF",
+     "light" : "#4DD9FF"
+   },
+   "orange" : {
+     "dark" : "#FF8C00",
+     "light" : "#E67300"
+   },
+   "purple" : {
+     "dark" : "#4DD9FF",
+     "light" : "#4DD9FF"
+   },
+   "red" : {
+     "dark" : "#FF2121",
+     "light" : "#D20000"
+   },
+   "secondaryGroupedBackground" : {
+     "dark" : "#1C1C1E",
+     "light" : "#FFFFFF"
+   },
+   "tabBarBackground" : {
+     "dark" : null,
+     "light" : null
+   },
+   "teal" : {
+     "dark" : "#00A0A0",
+     "light" : "#008080"
+   },
+   "tertiaryGroupedBackground" : {
+     "dark" : "#2C2C2E",
+     "light" : "#F2F2F7"
+   },
+   "yellow" : {
+     "dark" : "#FFD700",
+     "light" : "#DAA520"
+   }
+ },
+ "name" : "UltimateCool"
+}
