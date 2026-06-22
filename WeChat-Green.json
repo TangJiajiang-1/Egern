@@ -1,0 +1,65 @@
+{
+ "colors": {
+   "accent": {
+     "dark": "#07C160",
+     "light": "#07C160"
+   },
+   "background": {
+     "dark": "#111111",
+     "light": "#EDEDED"
+   },
+   "blue": {
+     "dark": "#07C160",
+     "light": "#07C160"
+   },
+   "cyan": {
+     "dark": "#3AD17D",
+     "light": "#1AAD19"
+   },
+   "green": {
+     "dark": "#07C160",
+     "light": "#07C160"
+   },
+   "groupedBackground": {
+     "dark": "#111111",
+     "light": "#EDEDED"
+   },
+   "indigo": {
+     "dark": "#5C5C5C",
+     "light": "#7F7F7F"
+   },
+   "orange": {
+     "dark": "#FF9F0A",
+     "light": "#FF9500"
+   },
+   "purple": {
+     "dark": "#8E8E93",
+     "light": "#8E8E93"
+   },
+   "red": {
+     "dark": "#FA5151",
+     "light": "#FA5151"
+   },
+   "secondaryGroupedBackground": {
+     "dark": "#1C1C1E",
+     "light": "#FFFFFF"
+   },
+   "tabBarBackground": {
+     "dark": "#191919CC",
+     "light": "#F7F7F7CC"
+   },
+   "teal": {
+     "dark": "#3AD17D",
+     "light": "#2DBB70"
+   },
+   "tertiaryGroupedBackground": {
+     "dark": "#2C2C2E",
+     "light": "#F7F7F7"
+   },
+   "yellow": {
+     "dark": "#FFD60A",
+     "light": "#FFCC00"
+   }
+ },
+ "name": "WeChat-Green"
+}
